@@ -26,7 +26,7 @@ public:
     Vector3D operator + (const Vector3D& v2) const;
     Vector3D operator - (const Vector3D& v2) const;
     Vector3D operator * (const double a) const;
-    double operator * (const Vector3D& v2);
+    double operator * (const Vector3D& v2) const;
  
 };
 

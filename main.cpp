@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include "vector.h"
+//#include "vector.h"
 #include "matrix.h"
 
 int main() 

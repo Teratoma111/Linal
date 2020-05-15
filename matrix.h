@@ -15,17 +15,17 @@ class Matrix3D
     double a21, double a22, double a23, 
     double a31, double a32, double a33);
 
-    Matrix3D operator * (const double a);
+    Matrix3D operator * (const double a) const;
 
-    Matrix3D operator - (const Matrix3D& mat);
+    Matrix3D operator - (const Matrix3D& mat) const;
 
-    Matrix3D operator + (const Matrix3D& mat);
+    Matrix3D operator + (const Matrix3D& mat) const;
 
-    Vector3D operator * (const Vector3D& v);
+    Vector3D operator * (const Vector3D& v) const;
 
-    Matrix3D operator * (const Matrix3D& mat);
+    Matrix3D operator * (const Matrix3D& mat) const;
 
-    double det();
+    double det() const;
 };
 
 std::ostream& operator << (std::ostream& os, const Matrix3D& mat);

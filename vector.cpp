@@ -73,7 +73,7 @@
         return Vector3D(this -> getX() * a, this -> getY() * a, this -> getZ() *a);
     }
 
-    double Vector3D::operator * (const Vector3D& v2)
+    double Vector3D::operator * (const Vector3D& v2) const
     {
     return this -> getX() * v2.getX() + this -> getY() * v2.getY() + this -> getZ() * v2.getZ();
     }
